@@ -47,8 +47,9 @@ class VGG(object):
 
         x = self._fc_layer(13, x, 4096, tf.nn.relu)
         x = self._fc_layer(14, x, 4096, tf.nn.relu)
-        x = self._fc_layer(15, x, 1000, tf.nn.relu)
-
+        # x = self._fc_layer(15, x, 1000, tf.nn.relu)
+        x = self._fc_layer(15, x, 2)
+        
         # x = self._softmax(x)
 
         return x
