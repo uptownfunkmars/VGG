@@ -13,6 +13,10 @@
 - [ ] 多卡并行训练
 - [ ] tf.train.Saver 保存
 
+***
+- 使用tensorflow计算auc时，需要使用tf.local.initializer()再次初始化。
+- L2正则化的两种添加方式，在声明变量时添加，最后添加。
+
 
 
 
