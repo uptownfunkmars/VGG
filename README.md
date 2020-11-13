@@ -11,6 +11,7 @@
 - [x] tensorflow 计算AUC
 - [x] tensorflow 计算ACC
 - [ ] 多卡并行训练
+- [ ] tf.train.Saver 保存
 
 
 
