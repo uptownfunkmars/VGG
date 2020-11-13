@@ -1,5 +1,4 @@
-# VGG
-vgg-tensorflow
+# VGG16-tensorflow
 这是一个使用tensorflow1.13搭建的VGG-16。
 
 ### To-do list
