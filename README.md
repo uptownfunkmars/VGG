@@ -8,7 +8,7 @@
 
 ## To-do list
 - [x] BatchNorm
-- [ ] L2 Regularization
+- [x] L2 Regularization
 - [ ] Pre-train model
 - [x] parser 参数解释器
 - [x] tensorboard
@@ -31,6 +31,7 @@
 
 ## 遇到的问题
 - 使用tensorflow计算auc时，需要使用tf.local.initializer()再次初始化。
+- 在FC层后加relu会导致损失变为0.69315(-log(0.5))。
 - L2正则化的两种添加方式
     - 在声明变量时添加
     - 最后添加
