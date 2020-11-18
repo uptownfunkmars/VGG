@@ -4,8 +4,8 @@
 ## 运行程序
 ```
 ./run.sh
-或
 ./run_batch_64_one_ce.sh
+
 ```
 
 ## To-do list
