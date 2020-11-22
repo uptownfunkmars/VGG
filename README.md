@@ -17,7 +17,7 @@
 - [x] tensorflow 计算AUC
 - [x] tensorflow 计算ACC
 - [ ] 多卡并行训练
-- [ ] tf.train.Saver 保存
+- [x] tf.train.Saver 保存
 
 ##  各个文件的任务
 - dataProcess.py   
